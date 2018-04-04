@@ -20,7 +20,7 @@ body {
 }
 
 #myAvatar{
-	background-image: url(/img/avatar.png);
+	background-image: url(../img/avatar.png);
 	background-size: 322px 399px;
 	background-repeat: no-repeat;
 	height: 399px;
@@ -66,14 +66,14 @@ body {
 }
 
 #link1 {
- 	background-image: url(/img/zcool.png);
+ 	background-image: url(../img/zcool.png);
 	background-size: 30px 30px;
 	background-repeat:no-repeat;
 	height: 30px;
 	width: 30px;
 }
 #link2 {
- 	background-image: url(/img/dribbble.png);
+ 	background-image: url(../img/dribbble.png);
 	background-size: 30px 30px;
 	background-repeat:no-repeat;
 	height: 30px;
