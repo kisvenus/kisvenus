@@ -64,8 +64,7 @@ body {
 	margin-right:40px;
 }
 
-#link1 {
- 	background-image: url(../img/zcool.png);
+.link{
 	background-size: 40px 40px;
 	background-repeat:no-repeat;
 	height: 40px;
@@ -73,38 +72,40 @@ body {
 	opacity:1;
 }
 
-#link1:hover {
-	opacity:0.8;
+.link:hover {
+	opacity:0.8;}
+
+#link1 {
+ 	background-image: url(../img/zcool.png);
 }
 
 #link2 {
  	background-image: url(../img/dribbble.png);
-	background-size: 40px 40px;
-	background-repeat:no-repeat;
-	height: 40px;
-	width: 40px;
-	opacity:1;
-}
-
-#link2:hover {
-	opacity:0.8;
 }
 
 .grayLine{
-	height: 2px;
+	height: 0.6px;
     background: #EBEBEB;
 	width: 100%;
 }
 
-.P2{
+.P{
 	margin-left:auto;
     margin-right:auto;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	width: 480px;
-	height: 720px;
+	width: 600px;
 }
 
+#p1{
+	height: 480px;
+}
+#p2{
+	height: 660px;
+}
+#p3{
+	height: 1120px;
+}
 .Title{
 	margin-bottom: 90px;
 }
@@ -139,6 +140,15 @@ body {
 	line-height: 18px;
 }
 
+.cBlockDate{
+	margin-top:2px;
+	font-size: 12px;
+	color: #B5B5B5;
+	letter-spacing: 1px;
+	float: right;
+	line-height: 12px;
+}
+
 .cBlocksub{
 	margin-top:6px;
 	font-size: 13px;
@@ -149,29 +159,21 @@ body {
 }
 
 .cBlockText{
-	margin-top:2px;
+	margin-top:8px;
 	margin-bottom: 16px;
 	font-weight: 400;
-	font-size: 14px;
+	font-size: 13px;
 	color: #B5B5B5;
 	letter-spacing: 0;
 	text-align: left;
-	line-height: 22px;
-}
-.P3{
-	margin-left:auto;
-    margin-right:auto;
-	padding-top: 90px;
-	padding-bottom: 90px;
-	width: 480px;
-	height: 1120px;
+	line-height: 21px;
 }
 
 .P3_PD{
-	padding: 36px;
+	padding: 6px 36px;
 	background: #F9F9F9;
-	border: 2px solid #EBEBEB;
-	border-radius: 19px;
+	border-radius: 15px;
+	margin: 36px 0px;
 }
 
 #prj{
@@ -181,3 +183,62 @@ body {
 	height: 92px;
 	width: 287px;
 }
+
+#skl{
+	background-image: url(../img/Skills.png);
+	background-size: 142px 61px;
+	background-repeat:no-repeat;
+	height: 61px;
+	width: 142px;
+}
+
+.sBlock{
+	margin-right: 60px;
+	height: 54px;
+	float: left;
+	display: flex;
+}
+
+.sName{
+	margin: 3px 0px 0px 12px;
+	font-size: 14px;
+	color: #191919;
+	letter-spacing: 0.4px;
+	text-align: left;
+	line-height: 28px;
+}
+.sImg{
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	height: 30px;
+	width: 30px;
+}
+#sImgSketch{
+	background-image: url(../img/tools/ske.png);
+}
+
+#sImgPs{
+	background-image: url(../img/tools/ps.png);
+}
+
+#sImgAi{
+	background-image: url(../img/tools/ai.png);
+}
+#sImgAe{
+	background-image: url(../img/tools/ae.png)
+}
+
+#sImgPcp{
+	background-image: url(../img/tools/pcp.png);
+}
+
+#sImgHtm{
+	background-image: url(../img/tools/htm.png);
+}
+#sImgAbs{
+	background-image: url(../img/tools/abs.png);
+}
+#sImgPs{
+	background-image: url(../img/tools/ps.png);
+}
+
