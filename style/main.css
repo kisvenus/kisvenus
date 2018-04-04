@@ -1,16 +1,14 @@
-
 body {
 	display: block;
 	margin: 0px;
 	padding: 0px;
-    font-family: "Pingfang SC", Heiti,Helvetica, Arial,Tahoma, STXihei, "Microsoft YaHei",  sans-serif;
+    font-family: Arial,"Pingfang SC", Heiti,Helvetica, Arial,Tahoma, STXihei, "Microsoft YaHei",  sans-serif;
 }
 .P1{
 	background: #F9F9F9;
-	display: block;
 }
 .WKW{
-	padding:120px;
+	padding:120px 60px 60px 60px;
 	padding-right: 0px;
 	margin-left:auto;
     margin-right:auto;
@@ -85,7 +83,7 @@ body {
 
 .grayLine{
 	height: 2px;
-    background: #EBEBEB;
+    background: #F1F1F3;
 	width: 100%;
 }
 
@@ -128,7 +126,7 @@ body {
 	letter-spacing: 1px;
 	text-align: left;
 	line-height: 28px;
-	margin-bottom: 36px;
+	margin-bottom: 12px;
 	width: auto;
 }
 .cBlockTitle{
@@ -169,20 +167,6 @@ body {
 	line-height: 21px;
 }
 
-.P3_PD{
-	padding: 6px 36px;
-	background: #F9F9F9;
-	border-radius: 15px;
-	margin: 36px 0px;
-}
-
-#prj{
-	background-image: url(../img/Project.png);
-	background-size: 287px 92px;
-	background-repeat:no-repeat;
-	height: 92px;
-	width: 287px;
-}
 
 #skl{
 	background-image: url(../img/Skills.png);
@@ -201,10 +185,10 @@ body {
 }
 
 .sName{
-	margin: 3px 0px 0px 12px;
+	margin: 2px 0px 0px 12px;
 	font-size: 14px;
-	color: #191919;
-	letter-spacing: 0.4px;
+	color: #4C4C4C;
+	letter-spacing: 0.5px;
 	text-align: right;
 	line-height: 28px;
 	float: left;
@@ -245,3 +229,26 @@ body {
 	background-image: url(../img/tools/git.png);
 }
 
+.P3_PD{
+	padding: 6px 36px;
+	background: #F9F9F9;
+	border-radius: 15px;
+	margin: 36px 0px;
+	transition: 0.2s;
+	border: 1px solid #F9F9F9;
+}
+
+.P3_PD:hover {
+background: #FFFFFF;
+border: 1px solid #F9F9F9;
+box-shadow: 0 4px 18px -10px rgba(21,25,36,0.35);
+border-radius: 15px;
+}
+
+#prj{
+	background-image: url(../img/Project.png);
+	background-size: 287px 92px;
+	background-repeat:no-repeat;
+	height: 92px;
+	width: 287px;
+}
