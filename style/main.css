@@ -11,6 +11,7 @@ body {
 }
 .WKW{
 	padding:120px;
+	padding-right: 0px;
 	margin-left:auto;
     margin-right:auto;
 	width: 850px;
@@ -28,7 +29,7 @@ body {
 }
 .myProfile{
 	margin-left: 30px;
-	margin-top: 66px;
+	margin-top: 60px;
 	display: inline-block;
 	width: 490px;
 	float:left;
@@ -100,8 +101,8 @@ body {
     margin-right:auto;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	width: 840px;
-	height: 540px;
+	width: 480px;
+	height: 720px;
 }
 
 .Title{
@@ -116,33 +117,40 @@ body {
 	height: 89px;
 	width: 289px;
 }
-
 .cBlock{
-	width: 420px;
-	height: 210px;
-	margin: 0px;
-	float: left;
+	padding: 24px 0px 8px 0px;
 }
-
-.cBlockTitle{
-	font-weight: 700;
-	font-size: 21px;
+.cBlockBigTitle{
+	font-weight: 900;
+	font-size: 24px;
 	color: #4C4C4C;
-	letter-spacing: 0;
+	letter-spacing: 1px;
 	text-align: left;
 	line-height: 28px;
+	margin-bottom: 36px;
+	width: auto;
+}
+.cBlockTitle{
+	font-weight: 500;
+	font-size: 18px;
+	color: #4C4C4C;
+	letter-spacing: 1.5px;
+	text-align: left;
+	line-height: 18px;
 }
 
 .cBlocksub{
-	margin-top:12px;
-	font-size: 12px;
+	margin-top:6px;
+	font-size: 13px;
 	color: #4C4C4C;
-	letter-spacing: 1.6px;
+	letter-spacing: 1px;
 	text-align: left;
+	font-weight: 900;
 }
 
 .cBlockText{
-	margin-top:12px;
+	margin-top:2px;
+	margin-bottom: 16px;
 	font-weight: 400;
 	font-size: 14px;
 	color: #B5B5B5;
@@ -155,9 +163,17 @@ body {
     margin-right:auto;
 	padding-top: 90px;
 	padding-bottom: 90px;
-	width: 840px;
+	width: 480px;
 	height: 1120px;
 }
+
+.P3_PD{
+	padding: 36px;
+	background: #F9F9F9;
+	border: 2px solid #EBEBEB;
+	border-radius: 19px;
+}
+
 #prj{
 	background-image: url(../img/Project.png);
 	background-size: 287px 92px;
