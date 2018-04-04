@@ -1,0 +1,87 @@
+
+body {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+    font-family: "Pingfang SC", Heiti,Helvetica, Arial,Tahoma, STXihei, "Microsoft YaHei",  sans-serif;
+}
+.P1{
+	background: #F9F9F9;
+	border: 0 solid #D1D1D1;
+	height: 700px;
+	display: block;
+}
+.WKW{
+	padding:90px;
+	margin-left:auto;
+    margin-right:auto;
+	width: 840px;
+	height: 399px;
+}
+
+#myAvatar{
+	background-image: url(/avatar.png);
+	background-size: 322px 399px;
+	background-repeat: no-repeat;
+	height: 399px;
+	width: 322px;
+	display: inline-block;
+	float:left;
+}
+.myProfile{
+	margin-left: 20px;
+	margin-top: 90px;
+	display: inline-block;
+	width: 490px;
+	float:left;
+}
+
+
+#myName{
+	font-weight: 900;
+	font-size: 36px;
+	color: #1C1C1C;
+	letter-spacing: 3px;
+}
+#aboutMe{
+	margin-top: 20px;
+	font-size: 16px;
+	color: #000000;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+}
+
+
+
+.WKW ul {
+	margin-top: 36px;
+	list-style: none;
+	padding: 0px;
+	float: left;
+}
+
+.WKW li {
+	float: left;
+	margin-right:30px;
+}
+
+#link1 {
+ 	background-image: url(/zcool.png);
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	height: 30px;
+	width: 30px;
+}
+#link2 {
+ 	background-image: url(/dribbble.png);
+	background-size: 30px 30px;
+	background-repeat:no-repeat;
+	height: 30px;
+	width: 30px;
+}
+
+
+.grayLine{
+	height: 0.5px;
+background: #D2D2D2;
+}
