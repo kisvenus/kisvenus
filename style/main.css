@@ -4,7 +4,7 @@ body {
 	padding: 0px;
     font-family: Arial,"Pingfang SC", Heiti,Helvetica, Arial,Tahoma, STXihei, "Microsoft YaHei",  sans-serif;
 }
-.P1{
+.head{
 	background: #F9F9F9;
 }
 .WKW{
@@ -59,15 +59,16 @@ body {
 
 .WKW li {
 	float: left;
-	margin-right:40px;
+	margin-right:20px;
 }
 
 .link{
-	background-size: 40px 40px;
+	background-size: 30px 30px;
 	background-repeat:no-repeat;
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	opacity:1;
+	transition: 0.15s;
 }
 
 .link:hover {
@@ -102,7 +103,6 @@ body {
 	height: 660px;
 }
 #p3{
-	height: 1120px;
 }
 .Title{
 	margin-bottom: 90px;
@@ -130,10 +130,10 @@ body {
 	width: auto;
 }
 .cBlockTitle{
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 18px;
 	color: #4C4C4C;
-	letter-spacing: 1.5px;
+	letter-spacing: 1px;
 	text-align: left;
 	line-height: 18px;
 }
@@ -186,9 +186,9 @@ body {
 
 .sName{
 	margin: 2px 0px 0px 12px;
-	font-size: 14px;
+	font-size: 13px;
 	color: #4C4C4C;
-	letter-spacing: 0.5px;
+	letter-spacing: 0.7px;
 	text-align: right;
 	line-height: 28px;
 	float: left;
@@ -228,20 +228,22 @@ body {
 #sImgGit{
 	background-image: url(../img/tools/git.png);
 }
-
+#sImgKyn{
+	background-image: url(../img/tools/kyn.png);
+}
 .P3_PD{
-	padding: 6px 36px;
+	padding: 6px 36px 0px 36px;
 	background: #F9F9F9;
 	border-radius: 15px;
 	margin: 36px 0px;
-	transition: 0.2s;
+	transition: 0.15s;
 	border: 1px solid #F9F9F9;
 }
 
 .P3_PD:hover {
 background: #FFFFFF;
 border: 1px solid #F9F9F9;
-box-shadow: 0 4px 18px -10px rgba(21,25,36,0.35);
+box-shadow: 0 6px 27px -12px rgba(21,25,36,0.35);
 border-radius: 15px;
 }
 
@@ -251,4 +253,43 @@ border-radius: 15px;
 	background-repeat:no-repeat;
 	height: 92px;
 	width: 287px;
+}
+
+#wechat{
+   position:relative;
+	font-size: 16px;
+	color: #919191;
+	letter-spacing: 0.5px;
+	line-height: 28px;
+	 text-decoration:none;
+}
+
+.footer{
+	background: #232323;
+}
+
+#p4{
+	height: 20px;
+}      
+
+#wechat::after{
+  content: url(../img/wechatQR.png);
+  position: absolute;
+  right: 88px;
+  top: -140px;
+  z-index: 50;
+  width:60px;
+  height: 60px;
+  transform-origin: top right;
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+
+}
+
+#wechat:hover::after{
+  transform:scale(0.2);
+  opacity: 1;
 }
