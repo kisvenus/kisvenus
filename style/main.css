@@ -68,11 +68,13 @@ body {
 	height: 30px;
 	width: 30px;
 	opacity:1;
-	transition: 0.15s;
+	transition:all .15s ease-in-out;
 }
 
 .link:hover {
-	opacity:0.8;}
+	opacity:0.8;
+transform: translateY(-1px);
+}
 
 #link1 {
  	background-image: url(../img/zcool.png);
@@ -236,7 +238,7 @@ body {
 	background: #F9F9F9;
 	border-radius: 15px;
 	margin: 36px 0px;
-	transition: 0.15s;
+	transition:all .15s ease-in-out;
 	border: 1px solid #F9F9F9;
 }
 
@@ -245,6 +247,7 @@ background: #FFFFFF;
 border: 1px solid #F9F9F9;
 box-shadow: 0 6px 27px -12px rgba(21,25,36,0.35);
 border-radius: 15px;
+transform: translateY(-1px);
 }
 
 #prj{
@@ -276,13 +279,14 @@ border-radius: 15px;
 	float: left;
 	margin: 0px 30px;
 	transition: 0.15s;
+	opacity: 0.8;
 }
 
 #wechat{
 	background-image: url(../img/wechat.svg)
 }
 #telegram{
-	background-image: url(../img/telegram.svg)
+	background-image: url(../img/Telegram.svg)
 }
 #instagram{
 	background-image: url(../img/Instagram.svg)
@@ -292,9 +296,9 @@ border-radius: 15px;
 }
 
 .fImg:hover{
-	opacity: 0.8;
+	opacity: 1;
 }
-/* 
+
 #wechat{
    position:relative;
 	font-size: 16px;
@@ -307,17 +311,16 @@ border-radius: 15px;
 #wechat::after{
   content: url(../img/wechatQR.png);
   position: absolute;
-  right: 88px;
-  top: -140px;
-  z-index: 50;
+  right: 80px;
+  top: -150px;
   width:60px;
   height: 60px;
   transform-origin: top right;
   transform: scale(0);
   opacity: 0;
-  -webkit-transition: all .1s ease-in-out;
-  -o-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 
 }
 
@@ -325,5 +328,3 @@ border-radius: 15px;
   transform:scale(0.2);
   opacity: 1;
 }
-
-*/
