@@ -4,6 +4,11 @@ body {
 	padding: 0px;
     font-family: Arial,"Pingfang SC", Heiti,Helvetica, Arial,Tahoma, STXihei, "Microsoft YaHei",  sans-serif;
 }
+
+a{
+	text-decoration: none;
+}
+
 .head{
 	background: #F9F9F9;
 }
@@ -29,7 +34,7 @@ body {
 	margin-left: 30px;
 	margin-top: 36px;
 	display: inline-block;
-	width: 360px;
+	width: 380px;
 	float:left;
 }
 
