@@ -68,10 +68,10 @@ a{
 }
 
 .link{
-	background-size: 30px 30px;
+	background-size: 31px 31px;
 	background-repeat:no-repeat;
-	height: 30px;
-	width: 30px;
+	height: 31px;
+	width: 31px;
 	opacity:1;
 	transition:all .15s ease-in-out;
 }
@@ -277,10 +277,10 @@ transform: translateY(-1px);
 }    
 
 .fImg{
-	background-size: 42px 42px;
+	background-size: 43px 43px;
 	background-repeat:no-repeat;
-	height: 42px;
-	width: 42px;
+	height: 43px;
+	width: 43px;
 	float: left;
 	margin: 0px 30px;
 	transition: 0.15s;
