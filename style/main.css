@@ -23,10 +23,10 @@ a{
 
 #myAvatar{
 	background-image: url(../img/avatar.png);
-	background-size: 270px 322px;
+	background-size: 276px 316px;
 	background-repeat: no-repeat;
-	height: 322px;
-	width: 270px;
+	height: 312px;
+	width: 276px;
 	display: inline-block;
 	float:left;
 }
