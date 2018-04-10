@@ -184,26 +184,27 @@ transform: translateY(-1px);
 }
 
 .sTitle{
-	margin:12px 0px;
+	margin:60px 0px 15px 0px;
 	width: 420px;
 	font-weight: 300;
-	font-size: 13px;
+	font-size: 14px;
 	color: #191919;
 	letter-spacing: 1px;
 	line-height: 28px;
 	display: block;
 }
 .sBlock{
-	margin: 0px 60px 20px 0px;
-	height: 66px;
+	margin: 0px 60px 10px 0px;
+	height: 54px;
 	width: 160px;
 	float: left;
 	display: inline-block;
 }
 
 .sName{
+	font-weight: 300;
 	margin: 2px 0px 0px 12px;
-	font-size: 13px;
+	font-size: 12px;
 	color: #4C4C4C;
 	letter-spacing: 0.7px;
 	text-align: right;
