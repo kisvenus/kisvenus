@@ -13,26 +13,26 @@ a{
 	background: #F9F9F9;
 }
 .WKW{
-	padding:120px 60px 60px 60px;
+	padding:90px 60px 60px 60px;
 	padding-right: 0px;
 	margin-left:auto;
     margin-right:auto;
 	width: 720px;
-	height: 399px;
+	height: 270px;
 }
 
 #myAvatar{
 	background-image: url(../img/avatar.png);
-	background-size: 276px 316px;
+	background-size: 221px 253px;
 	background-repeat: no-repeat;
-	height: 312px;
-	width: 276px;
+	height: 253px;
+	width: 221px;
 	display: inline-block;
 	float:left;
 }
 .myProfile{
 	margin-left: 30px;
-	margin-top: 36px;
+	margin-top: 18px;
 	display: inline-block;
 	width: 380px;
 	float:left;
@@ -41,22 +41,22 @@ a{
 
 #myName{
 	font-weight: 900;
-	font-size: 36px;
+	font-size: 30px;
 	color: #191919;
 	letter-spacing: 3px;
 }
 #aboutMe{
-	margin-top: 20px;
-	font-size: 15px;
+	margin-top: 12px;
+	font-size: 14px;
 	color: #4C4C4C;
 	letter-spacing: 0.5px;
-	line-height: 26px;
+	line-height: 22px;
 }
 
 
 
 .WKW ul {
-	margin-top: 36px;
+	margin-top: 24px;
 	list-style: none;
 	padding: 0px;
 	float: left;
@@ -104,10 +104,10 @@ transform: translateY(-1px);
 }
 
 #p1{
-	height: 400px;
+	height: 390px;
 }
 #p2{
-	height: 660px;
+	height: 600px;
 }
 #p3{
 }
